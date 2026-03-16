@@ -1181,7 +1181,7 @@ function ConsumesManager_UpdateManagerContent()
     end
 
     -- Adjust the scroll child height
-    ManagerFrame.scrollChild.contentHeight = index * lineHeight
+    ManagerFrame.scrollChild.contentHeight = (index + 3) * lineHeight
     ManagerFrame.scrollChild:SetHeight(ManagerFrame.scrollChild.contentHeight)
 
     -- Update the scrollbar
